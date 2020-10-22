@@ -101,17 +101,17 @@ function setCounter() {
       clearInterval(timeInterval);
     }
 
+    // if there is 10 seconds left on the clock the timer will turn red and the font size increases.
+    if (timeLeft <= 10) {
+      timerEl.setAttribute("style", "color:red; font-size:30px;")
+    }
+    
     if (timeLeft === 0) {
       clearInterval(timeInterval);
       timerEl.textContent = "Time's up!";
       showResults();
     }
-
-    // if there is 10 seconds left on the clock the timer will turn red and the font size increases.
-    if (timeLeft <= 10) {
-      timerEl.setAttribute("style", "color:red; font-size:30px;")
-    }
-
+    
   }, 1000);
 }
 
