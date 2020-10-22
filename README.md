@@ -1,6 +1,6 @@
 # quiz-game
 
-https://solemansay.github.io/quiz-game/
+view deployed project [here](https://solemansay.github.io/LOR-quiz/)
 
 I created this quiz to challenge my JS writing skills along with furthering my knowledge of functions. It is a simple quiz on the popular novels and movies Lord of the Rings. In order to begin the quiz, you must press the start button, after which a timer will begin, you will be docked 10 points for every wrong answer that you input. at the end of the quiz, your remaining time will be your final score. Enter your initials to be added to the leaderboard and see who knows Lord of the Rings the best! 
 
