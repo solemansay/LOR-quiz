@@ -85,4 +85,4 @@ The Javascript used for the scoreboard is as bellow:
 
 -
 
-Thank you for viewing my Lord of the Rings trivia quiz I hope you enjoyed it and continue to follow my career as a full-stack web developer!
+Thank you for viewing my LOR trivia quiz I hope you enjoyed it and continue to follow my career as a full-stack web developer!
