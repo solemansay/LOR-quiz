@@ -2,7 +2,7 @@
 
 https://solemansay.github.io/quiz-game/
 
-I created this quiz to challenge my JS writing skills along with furthering my knowledge of functions. It is a simple quiz on the popular novels and movies Harry Potter. In order to begin the quiz, you must press the start button, after which a timer will begin, you will be docked 10 points for every wrong answer that you input. at the end of the quiz, your remaining time will be your final score. Enter your initials to be added to the leaderboard and see who knows Harry Potter the best! 
+I created this quiz to challenge my JS writing skills along with furthering my knowledge of functions. It is a simple quiz on the popular novels and movies Lord of the Rings. In order to begin the quiz, you must press the start button, after which a timer will begin, you will be docked 10 points for every wrong answer that you input. at the end of the quiz, your remaining time will be your final score. Enter your initials to be added to the leaderboard and see who knows Lord of the Rings the best! 
 
 # How it works 
 
@@ -13,7 +13,7 @@ The HTML used for the main part of this page is relatively plain consisting of:
  - basic HTML structure
  - a button that is connected to the high scores HTML page
  - a div with the id of "count"
- - the title "Harry Potter Quiz"
+ - the title "Lord of the Rings Quiz"
  - a small paragraph on how the quiz works and the scoring system 
  - a start button 
  - a text area for the questions
@@ -85,4 +85,4 @@ The Javascript used for the scoreboard is as bellow:
 
 -
 
-Thank you for viewing my Harry Potter trivia quiz I hope you enjoyed it and continue to follow my career as a full-stack web developer!
+Thank you for viewing my Lord of the Rings trivia quiz I hope you enjoyed it and continue to follow my career as a full-stack web developer!
