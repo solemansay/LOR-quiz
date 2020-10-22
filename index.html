@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link href="assets/style.css">
+
+    <title>Lord of the Rings Quiz</title>
+</head>
+
+<body class="text-monospace">
+
+    <header>
+        <a href="high-scores.html" class="text-left btn btn-outline-success mt-0 ml-3 float-left" type="button">view
+            high
+            scores</a>
+        <p class="h4 text-right mr-4 mt-2"><span id="count">time left: </span></p>
+    </header>
+
+    <main class="container text-center">
+        <article class="startScreen">
+            <img class="img" src="assets/back.jpg" width="470px" height="300px"></img>
+
+            <h1 class="text-center m-5" id="hpTitle">Lord of the Rings Quiz!</h1>
+            <p class="text-center" id="instructions"> Welcome to the Lord of the Rings quiz, if you would like to test
+                your
+                knowledge on all things Ring, dwarf, hobbit and wizard please click the start button. Press play on the
+                audio snippet
+                for extra motivation!
+                You have a set amount of seconds to complete the quiz, everytime you answer incorectly you are docked 10
+                seconds from the timer,
+                the time remaing after the quiz is your final score. GOOD LUCK!
+            </p>
+
+            <div>
+                <button type="button" class="btn btn-secondary mt-4" id="startButton"> start the quiz!</button>
+            </div class="col-12">
+
+            <audio controls autoplay class="mt-5">
+                <source src="assets/LOR.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+        </article>
+
+        <div class="d-none quizScreen">
+
+            <div id="questionText" class="h3 text-center mt-5 m-4">
+            </div>
+
+            <div class="buttons">
+                <button id="btn0" type="button" class="btn btn-secondary btn-block mt-5"></button>
+                <button id="btn1" type="button" class="btn btn-secondary btn-block"></button>
+                <button id="btn2" type="button" class="btn btn-secondary btn-block"></button>
+                <button id="btn3" type="button" class="btn btn-secondary btn-block"></button>
+            </div>
+            <div id="message"> </div>
+        </div>
+
+        <div class="endScreen d-none">
+
+            <h2 class="m-5" id="endTitle"></h2>
+
+            <div class="m-5" id="viewScore"></div>
+
+            <div class="input-group m-5">
+
+                <div class="input-group-prepend mt-5">
+                    <button class="btn btn-outline-secondary" type="button" id="button-addon1">Submit</button>
+                </div>
+
+                <input type="text" class="form-control mt-5 text-center" placeholder="Initials"
+                    aria-label="Example text with button addon" aria-describedby="button-addon1" id="initials">
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+        integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+        crossorigin="anonymous"></script>
+
+    <script src="assets/script.js"></script>
+
+</body>
+
+</html>
